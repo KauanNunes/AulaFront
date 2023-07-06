@@ -50,9 +50,19 @@ main p{
     text-align: center;
 }
 
+section{
+    margin-bottom: 20px;
+}
+
 .titulo-secao{
     text-align: center;
     color: rgb(4, 158, 4);
+}
+.container-disciplinas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .card-disciplinas{
@@ -63,6 +73,26 @@ main p{
     border-radius: 8px;
     padding: 20px;
     width: 1000px;
+
+    box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+.card-primeiro{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    
+
+}
+.card-segundo{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+
+}
+.card-terceiro{
+  
+    
+}
+.card-quarto{
+
+
 }
 
 #img-lp, #img-alg, #img-arq{
